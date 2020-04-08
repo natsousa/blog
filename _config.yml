@@ -31,7 +31,7 @@ tag_page_layout:      tag_page
 tag_permalink_style:  pretty
 
 # Comments
-discus-identifier: natsousa
+discus-identifier: natsousablog
 
 port: 4001
 

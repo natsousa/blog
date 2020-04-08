@@ -26,7 +26,7 @@ github: https://github.com/nataliasousa
 
 #-------------------------------
 # Comment Section (Disqus)
-disqus-identifier: mr-brown # add your shortname for Disqus Comment. For example mr-brown
+disqus-identifier: natsousablog # add your shortname for Disqus Comment. For example mr-brown
 
 
 #-------------------------------
@@ -42,4 +42,4 @@ google-analytics: # Add your identifier. For example UA-99631805-1.
 
 #-------------------------------
 # Newsletter
-mailchimp: # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
+mailchimp: github.us19.list-manage.com/subscribe/post?u=ab50b01b57b114ea3b8d1aa34&amp;id=9935226afd # Add your MailChimp form identifier. For example - blogenjoyfreedom.us16.list-manage.com/subscribe/post?u=cd56155d76ddeeb4c0bc4d080&amp;id=7a526cd13e
