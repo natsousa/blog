@@ -15,7 +15,7 @@ Then I decided to change careers to a more data-focused role, thereby I landed a
 It is a way I found to ensure data usage to outline meaningful insights... Well, later I explain in details how did this change happen. 😊
 
 ***
-![]({{ site.baseurl }}/images/about.jpg)
+![]({{ site.baseurl }}/images/me.jpg)
 #### This blog...
 <small>My writings</small>
 
