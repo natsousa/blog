@@ -2,7 +2,7 @@
 layout: page
 title: About me
 permalink: /about/
-image: about.jpg
+image: human-hand-between-yellow-petaled-flower-field-2440296.jpg
 ---
 
 <p style="text-align: center;"> Hey You! </p>
@@ -15,7 +15,7 @@ Then I decided to change careers to a more data-focused role, thereby I landed a
 It is a way I found to ensure data usage to outline meaningful insights... Well, later I explain in details how did this change happen. 😊
 
 ***
-
+![]({{ site.baseurl }}/images/about.jpg)
 #### This blog...
 <small>My writings</small>
 
