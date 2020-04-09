@@ -11,8 +11,10 @@ layout: default
 	</div>
 
 	{% if page.image %}
-	<div class="page__head">
-		<div class="page-image" style="background-image: url({{site.baseurl}}/images/{{page.image}})"></div>
+	<div class="pg-img col col-3 col-t-10 col-m-12">
+
+		<img src="{{site.baseurl}}/images/{{ page.image }}" alt="">
+
 	</div>
 	{% endif %}
 </div>
