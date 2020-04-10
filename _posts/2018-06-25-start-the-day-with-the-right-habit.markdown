@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Create a website in Corona times
-date:   2020-04-09 12:00:00 +0300
+date:   2020-04-10 12:00:00 +0300
 image:  post01.jpg
 tags:   Code
 ---
@@ -242,7 +242,7 @@ Then start the server again:
 $ bundle exec jekyll serve
 ```
 
-<br/><br/>
+<br/>
 ### 4.Set up a GitHub account.
 If you get until here, you are ready to publish your website to the world by serving it in GitHub with GitHub Pages.
 
@@ -352,7 +352,7 @@ There you see the link of your website:
 
 The whenever you modify your website files locally, check how does it looks like
 by starting the Jekyll server (hint: `bundle exec jekyll server`).
-After that, you have to add your files to the staging area, commit the changes and push them to you GitHub repository.
+After that, you have to add your files to the staging area, commit the changes and push them to your GitHub repository.
 The commands your already know:
 
 ```
@@ -365,5 +365,5 @@ $ git push origin gh-pages
 
 <br/>
 <p style="text-align: center">I hope you have enjoyed with me guys.</p>
-Share this article with your community. I am very to have guided you through this journey.
-Feedbacks, comments, bugs... Just leave a message. I am willing to support any further advise.
+Share this article with your community. I am very happy to have guided you through this journey.
+Feedbacks, comments, bugs... Just leave a message. I am willing to support with any further advise.
