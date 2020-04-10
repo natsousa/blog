@@ -135,10 +135,12 @@ $ ruby -v
 # ruby 2.6.3p62 (2019-04-16 revision 67580)
 ```
 <br/>
+To stop the server, run: `ctrl + C`, then: `Y`.
+
 
 Great, now all the needed environments are set up!
 
-
+<br/>
 ### 3.Download a Jekyll theme.
 Now it is time to choose your favourite Jekyll themes.
 Go ahead to the website and try to get the one which fits the propose of your website most.
@@ -350,7 +352,7 @@ There you see the link of your website:
 
 The whenever you modify your website files locally, check how does it looks like
 by starting the Jekyll server (hint: `bundle exec jekyll server`).
-After, you have to add your files to the staging are, commit the changes and push them to you GitHub repository.
+After that, you have to add your files to the staging area, commit the changes and push them to you GitHub repository.
 The commands your already know:
 
 ```
