@@ -1,51 +1,355 @@
 ---
 layout: post
-title:  Start the day with the right habit
-date:   2018-06-25 15:01:35 +0300
-image:  06.jpg
-tags:   Style
+title:  Create a website in Corona times
+date:   2020-04-09 12:00:00 +0300
+image:  post01.jpg
+tags:   Code
 ---
-Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." Noooooo! Perhaps, but perhaps your civilization is merely the sewer of an even greater society above you!
+## Motivation.
+Perhaps you are at home wondering that you cannot go out or asking yourself when this social isolation will finally get to an end. Even deeper, your mind wonders that you cannot do your job because it requires you to be on site. You already made all home organization that you planned once the time comes you would do. But it still not enough and you feel like doing something good to the society... Then this post is for you!
 
-You lived before you met me?! Ow, my spirit! Humans dating robots is sick. __You people wonder why I'm still single?__ *It's 'cause all the fine robot sisters are dating humans!* I guess if you want children beaten, you have to do it yourself.
+I will introduce you through this tutorial how you can let your legacy to the world by showing you __how to create a website__ without needing for programming knowledge (just a bit, but it won't hurts, I promise 😉), and deliver your message, in a really nice way, to your audience.
 
-## Are you crazy? I can't swallow that.
+So, let's get to start!!!
 
-Oh, I don't have time for this. I have to go and buy a single piece of fruit with a coupon and then return it, making people wait behind me while I complain. Meh. So, how 'bout them Knicks? Also Zoidberg.
+## Creating a website with Jekyll and GitHub.
 
-1. We need rest. The spirit is willing, but the flesh is spongy and bruised.
-2. Fry, we have a crate to deliver.
-3. Have you ever tried just turning off the TV, sitting down with your children, and hitting them?
+There are several ways how you can create your own blog or website. For instance, you could do it using __Blogdown__ and R, <a href="https://www.samples-of-thoughts.com/2018/how-to-make-a-website-using-blogdown-and-github/">here</a> is a good tutorial to start it. I decided to use <a href="http://jekyllthemes.org/">Jekyll themes </a>. However, there are some alternatives as, <a href="https://blog.getpelican.com/">Pelican</a>, <a href="https://gohugo.io/">Hugo</a>, and others with even less coding requirements, such as <a href="https://br.wordpress.com/">WorlPress</a> and <a href="https://www.dokuwiki.org/dokuwiki">Dokuwiki</a>. I decided to host the website on <a href="https://pages.github.com/">GitHub Pages</a>, where you learn with many of its tutorials.
 
-### Why not indeed!
+__What do we need to start?__
 
-Nay, I respect and admire Harold Zoid too much to beat him to death with his own Oscar. I don't 'need' to drink. I can quit anytime I want! Soothe us with sweet lies. Bender?! You stole the atom. You don't know how to do any of those.
+I am assuming from now that you have none of these things set up yet.
 
-* Shinier than yours, meatbag.
-* This is the worst part. The calm before the battle.
-* Ooh, name it after me!
+**1. Download Git bash:** It allows us to run the command line to connect local folders to GitHub repository.
 
-Say what? Throw her in the brig. Hey, you add a one and two zeros to that or we walk! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Ow, my spirit! Who's brave enough to fly into something we all keep calling a death sphere?
+**2. Install Ruby and Jekyll:** It creates an environment for Jekyll runs since Jekyll is built in Ruby.
 
-Hey, you add a one and two zeros to that or we walk! You won't have time for sleeping, soldier, not with all the bed making you'll be doing. It's okay, Bender. I like cooking too. Hey, what kinda party is this? There's no booze and only one hooker.
+**3. Install Jekyll Themes:** This is what will give the website a nice look. It is the layout of your website
 
-![]({{ site.baseurl }}/images/07.jpg)
-*Minimalism*
+**4. Set up a GitHub account and create a repository:** It allows us to give the website a name.
 
-Ummm…to eBay? But I know you in the future. I cleaned your poop. I'm just glad my fat, ugly mama isn't alive to see this day. My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution. Also dark wizards.
+**5. Publishing your website:** It allows people to find you. This step brings your website to GitHub repository.
 
-Your best is an idiot! Fry, you can't just sit here in the dark listening to classical music. And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it!
 
-You, a bobsleder!? That I'd like to see! I'm Santa Claus! There's no part of that sentence I didn't like! Noooooo! I can explain. It's very valuable.
+![]({{ site.baseurl }}/images/post011.jpg)
 
-I'm Santa Claus! Is the Space Pope reptilian!? Who's brave enough to fly into something we all keep calling a death sphere? I had more, but you go ahead.
+<br/>
+### 1. Download and install Git.
 
-It doesn't look so shiny to me. Kif might! You guys aren't Santa! You're not even robots. How dare you lie in front of Jesus? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by "devil", I mean Robot Devil. And by "metaphorically", I mean get your coat.
+You can <a href="https://git-scm.com/downloads">download Git</a> and start installation.
+For more information on how to install it, access link above.
+If you are familiar with the command line, open command prompt and just run these lines bellow:
 
-Check it out, y'all. Everyone who was invited is here. Anyone who laughs is a communist! You're going to do his laundry? Michelle, I don't regret this, but I both rue and lament it.
+<br/>
+__1.1 Git for Linux:__ if you’re on a Debian-based distribution, such as Ubuntu.
 
-Bender, we're trying our best. I daresay that Fry has discovered the smelliest object in the known universe! Oh, you're a dollar naughtier than most. Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute.
+```
+$ sudo apt install git-all
+```
 
-You, a bobsleder!? That I'd like to see! No! The kind with looting and maybe starting a few fires! Good news, everyone! There's a report on TV with some very bad news! When I was first asked to make a film about my nephew, Hubert Farnsworth, I thought "Why should I?" Then later, Leela made the film. But if I did make it, you can bet there would have been more topless women on motorcycles. Roll film!
+<br/><br/>
+__1.2 Git for macOS:__ first, check if it is already installed on your computer. probably it is!
 
-Eeeee! Now say "nuclear wessels"! Why did you bring us here? Yeah, and if you were the pope they'd be all, "Straighten your pope hat." And "Put on your good vestments." That's the ONLY thing about being a slave.
+```
+$ git --v
+```
+<br/>
+Otherwise download it <a href="https://sourceforge.net/projects/git-osx-installer/files/">here</a>.
+
+<br/>
+__1.3 Git for Windowns:__ better way is to <a href="https://git-scm.com/downloads">download the driver</a> and install it.
+
+
+<br/>
+### 2. Download and install Ruby and Jekyll.
+Why do you need Ruby? So, you want your website to look pretty. For this, we need to download Jekyll Themes.
+Because Jekyll is built using Ruby, we need to set up a Ruby environment (e.g. install Ruby) for Jekyll be able to run. For more information about Jekyll, have a look <a href="https://jekyllrb.com/docs/installation/windows/">here</a>.
+
+
+**Open Git bash**, from now on we are going to type all command lines there.
+Then, check if you already have Ruby installed on your computer:
+```
+$ ruby --v
+```
+<br/>
+If you do not hare it yet, let's install it!
+
+
+__2.1 Install Ruby and Jekyll on Windowns__
+
+* Download Ruby+Devkit <a href="https://rubyinstaller.org/">here</a>.
+* Run the `ridk install`. For additional info see Ruby Installer <a href="https://github.com/oneclick/rubyinstaller2#using-the-installer-on-a-target-system">documentation</a>.
+* __Installing Jekyll__: Open a new Git bash and install Jekyll and via Bundler (bundle provide an environment to run Ruby with `gem` command):
+
+```
+$ gem install jekyll bundler
+```
+<br/>
+Check if Jekyll was installed properly. If so, you may be able to see something like: `jekyll 4.0.0`
+
+```
+$ jekyll -v
+```
+<br/>
+If you run into error messages, jump to the session **Dealing with errors**
+
+<br/>
+__2.3 Install Ruby and Jekyll on Linux__
+
+```
+$ sudo apt install ruby-full
+
+$ sudo apt install rubygems  # or rubygems-integration
+
+$ gem install jekyll bundler
+```
+<br/>
+
+__2.4 Install Ruby and Jekyll on macOS__
+Installing Ruby with Homebrew macOS (Homebrew is a commonly used package manager on macOS).
+
+```
+# Install Xcode command lines
+$ xcode-select --install
+
+# Install Homebrew
+$ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+$ brew install ruby
+
+# Add the brew ruby path to your shell config:
+$ echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
+
+#Then relaunch your terminal and check your updated Ruby setup:
+$ which ruby
+# /usr/local/opt/ruby/bin/ruby
+
+$ ruby -v
+$ ruby 2.6.3p62 (2019-04-16 revision 67580)
+
+# Now all that is left is installing Bundler and Jekyll.
+$ gem install --user-install bundler jekyll
+
+# and then get your Ruby version using
+$ ruby -v
+# ruby 2.6.3p62 (2019-04-16 revision 67580)
+```
+<br/>
+
+Great, now all the needed environments are set up!
+
+
+### 3.Download a Jekyll theme.
+Now it is time to choose your favourite Jekyll themes.
+Go ahead to the website and try to get the one which fits the propose of your website most.
+
+The themes I am using is zolan.
+You can download it directly from the <a href="http://jekyllthemes.org/">website</a>, or, since you have already Git bash installed, run this command line:
+
+```
+$ git clone https://github.com/developer_name/themes_name.git
+```
+<br/>
+Now in the Git bash navigate via the command line to the folder your download the Jekyll themes:
+
+First, check each folder you are currently in, by:
+
+```
+$ cd pwd
+# C:Users\natsousa
+```
+<br/>
+If you are at your user root, and for instance, you download Jekyll themes into Downloads folder you can navigate to there, by:
+
+```
+$ cd Downloads\your_nice_jekyll_themes_name
+```
+<br/>
+
+Or, if you are in the up front folder (like: `C:Users\your_username\Desktop\some_folder`) and you need to go some folders back, you can do so by:
+
+```
+$ cd ..\..
+$ cd Downloads\your_nice_jekyll_themes_name
+```
+<br/>
+Now it is time to run your **unzipped** Jekyll themes folder by running:
+
+```
+$ bundle install
+
+$ bundle exec jekyll serve
+```
+<br/>
+You should now be able to see the folloing:
+```
+$ Configuration file: C:/Users/your_name/your_themes_name/_config.yml
+              Source: C:/Users/your_name/your_themes_name
+         Destination: C:/Users/your_name/your_themes_name/_site
+   Incremental build: disabled. Enable with --incremental
+        Generating...
+                      done in 3.137 seconds.
+   Auto-regeneration: enabled for 'C:/Users/deSousN1/blog'
+      Server address: http://127.0.0.1:4001/blog/
+    Server running... press ctrl-c to stop.
+```
+<br/>
+So what you get?
+Now you served your website locally on your computer, meaning that as soon the server is running you can access your website by search it in google by:
+
+`http://127.0.0.1:4001/`
+
+
+<br/>
+So, up to here all running good guys? Great! Jump to **Step 4**!
+
+<br/>
+**Dealing with errors**
+
+Otherwise, if you get into some problems on the way and see an error message printed out like:
+
+"`Please add the following to your Gemfile to avoid polling for changes: gem 'wdm', '>= 0.1.0' if Gem.win_platform?`"
+
+It is because some gem dependencies are probably missing.
+I installed all in the Windows system, and I could solve this problem by running:
+
+```
+$ gem install wdm
+
+$ bundle exec jekyll serve
+```
+<br/>
+Hopefully installing some missing packages like that solves your problem.
+
+If you still run into some server port connection problems, you will get an error message like: "`Permission denied for 127.0.0.1:4000`".
+
+It is because the port 4000 is already being used in your computer, then you can solve it by adding the following line to your **_config_yml** file: `port: 4001`
+
+Else, try to update the gem file, as:
+
+```
+$ gem source -r https://rubygems.org/
+$ gem source -a http://rubygems.org/
+$ gem update --system
+$ gem install rails -v 4.2.3 (4.2.5)
+```
+<br/>
+Then start the server again:
+
+```
+$ bundle exec jekyll serve
+```
+
+<br/><br/>
+### 4.Set up a GitHub account.
+If you get until here, you are ready to publish your website to the world by serving it in GitHub with GitHub Pages.
+
+But first, you need to create a <a href="https://github.com/join?source=header-home">GitHub account</a>, if you do not have one yet.
+
+**Attention!** The username you give to your GitHub account will be the name of your website.
+In the end, it looks like: *your_github_username.github.io*
+
+Great. You are doing well!
+
+<br/>
+### 5.Publish your website.
+Now in GitHub create a repository:
+
+5.1 click in the **+** at the upright corner, then New repository:
+
+![]({{ site.baseurl }}/images/create_git_repos.jpg)
+
+
+5.2 Give your repository a name.
+
+**Attention!** the name of your repository (e.g: 'blog') will be added to your `your_github_username.github.io`,
+as so:
+
+`your_github_username.github.io/blog`.
+
+Or, if you bought a domain name, and your domain is `my_nice_website_name.com`, place it as the name of your repository.
+
+![]({{ site.baseurl }}/images/create_git_repos2.jpg)
+
+
+5.3 Now you should be able to see the following:
+
+![]({{ site.baseurl }}/images/create_git_repos3.jpg)
+
+#### Great!
+
+5.4 Now in the website folder, open the **_config.yml** file and write your repository name in the baseurl line,
+and in url line paste your base hostname & protocol for your site, as:
+
+![]({{ site.baseurl }}/images/create_git_repos21.jpg)
+
+You can do something else, in **_settings.yml** file, you can add your social network information,
+include <a href="https://disqus.com/">Disqus</a> (allow reads to comment, give likes your posts, it is important because this your way to communicate with you audience),
+and <a href="https://mailchimp.com/">MailChimp</a> (send personalised email to your followers) credentials.
+
+<br/>
+5.5 Now what you need to do is to tell your **local folder** that there is a **repository** waiting for it.
+
+In the Git bash, check if you are inside of your website folder (hint: `pwd`).
+And initiate a <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a> for your website folder, by running:
+
+```
+$ git init
+```
+<br/>
+Now your folder can be tracked for changes and can communicate with the external GitHub repository that you just created.
+
+How to get there? Write your first git commit.
+
+Don't worry so much about git commands now, it is easy and soon you will get very familiar with it. Here is a <a href="https://www.udacity.com/course/version-control-with-git--ud123">free course</a> you can learn more about it.
+
+<br/>
+5.6 Create a branch on your website project that up to now just have one (a master branch)
+
+```
+$ git checkout -b gh-pages
+```
+<br/>
+
+5.7 Add the files from your website folder to the staging area (a place where files get together to gain a commit and start being tracked)
+```
+$ git add .
+```
+<br/>
+The **.** here means "add all files".
+
+<br/>
+5.8 Write your first commit with a commit message:
+```
+$ git commit -m "first commit"
+```
+<br/>
+
+5.9 Now communicate your remote repository from GitHub with your local folder, by:
+```
+$ git remote add origin https:://github.com/your_github_user_name/your_github_repository.git
+```
+<br/>
+
+5.10 Send your website local files to the remote repository, by:
+```
+$ git push origin gh-pages
+```
+<br/>
+
+#### Tahdaaah... There you are!!! 🎉
+
+<br/>
+In GitHub website go to settings and scroll down until GitHub Pages:
+
+![]({{ site.baseurl }}/images/create_git_repos4.jpg)
+
+There you see the link of your website:
+![]({{ site.baseurl }}/images/create_git_repos5.jpg)
+
+#### Access it and have fun!!! 💚
+
+<br/>
+<p style="text-align: center">I hope you have enjoyed with me guys.</p>
+Share this article with your community. I am very to have guided you through this journey.
+Feedbacks, comments, bugs... Just leave a message. I am willing to support any further advise.
