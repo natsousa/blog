@@ -208,7 +208,7 @@ You can see your files and edit them by right clicking on the folder and open it
 Besides of notepad++, I would recommend <a href="https://atom.io/">Atom</a>, the one I am using, or <a href="http://www.sublimetext.com/">Sublime</a>.
 
 <br/>
-So, up to here all running good guys? Great! Jump to **Step 4**!
+#### So, up to here all running good guys? Great! Jump to **Step 4**!
 
 <br/>
 **Dealing with errors**
@@ -248,7 +248,7 @@ $ bundle exec jekyll serve
 ```
 
 <br/>
-### 4.Setthing up a GitHub account.
+### 4.Setting up a GitHub account.
 If you get until here, you are ready to publish your website to the world by serving it in GitHub with GitHub Pages.
 
 But first, you need to create a <a href="https://github.com/join?source=header-home">GitHub account</a>, if you do not have one yet.
