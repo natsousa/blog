@@ -14,19 +14,19 @@ So, let's get to start!!!
 
 ## Creating a website with Jekyll and GitHub.
 
-There are several ways how you can create your own blog or website. For instance, you could do it using __Blogdown__ and R, <a href="https://www.samples-of-thoughts.com/2018/how-to-make-a-website-using-blogdown-and-github/">here</a> is a good tutorial to start it. I decided to use <a href="http://jekyllthemes.org/">Jekyll themes </a>. However, there are some alternatives as, <a href="https://blog.getpelican.com/">Pelican</a>, <a href="https://gohugo.io/">Hugo</a>, and others with even less coding requirements, such as <a href="https://br.wordpress.com/">WorlPress</a> and <a href="https://www.dokuwiki.org/dokuwiki">Dokuwiki</a>. I decided to host the website on <a href="https://pages.github.com/">GitHub Pages</a>, where you learn with many of its tutorials.
+There are several ways how you can create your own blog or website. For instance, you could do it using __Blogdown__ and R, <a href="https://www.samples-of-thoughts.com/2018/how-to-make-a-website-using-blogdown-and-github/">here</a> is a good tutorial to start it. I decided to use <a href="http://jekyllthemes.org/">Jekyll themes </a>. However, there are some alternatives as, <a href="https://blog.getpelican.com/">Pelican</a>, <a href="https://gohugo.io/">Hugo</a>, and others with even less coding requirements, such as <a href="https://br.wordpress.com/">WorldPress</a> and <a href="https://www.dokuwiki.org/dokuwiki">Dokuwiki</a>. I decided to host the website on <a href="https://pages.github.com/">GitHub Pages</a>, where you learn with many of its tutorials.
 
 __What do we need to start?__
 
 I am assuming from now that you have none of these things set up yet.
 
-**1. Download Git bash:** It allows us to run the command line to connect local folders to GitHub repository.
+**1. Downloading Git bash:** It allows us to run the command line 🤯 to connect local folders to GitHub repository 😵. Hang on! Guys don't worries with theses term, slowly we come along with it.
 
-**2. Install Ruby and Jekyll:** It creates an environment for Jekyll runs since Jekyll is built in Ruby.
+**2. Installing Ruby and Jekyll:** It creates an environment for Jekyll runs since Jekyll is built in Ruby.
 
-**3. Install Jekyll Themes:** This is what will give the website a nice look. It is the layout of your website
+**3. Installing Jekyll Themes:** This is what will give the website a nice look. It is the layout of your website
 
-**4. Set up a GitHub account and create a repository:** It allows us to give the website a name.
+**4. Setting up a GitHub account and create a repository:** It allows us to give the website a name.
 
 **5. Publishing your website:** It allows people to find you. This step brings your website to GitHub repository.
 
@@ -34,7 +34,7 @@ I am assuming from now that you have none of these things set up yet.
 ![]({{ site.baseurl }}/images/post011.jpg)
 
 <br/>
-### 1. Download and install Git.
+### 1. Downloading and installing Git.
 
 You can <a href="https://git-scm.com/downloads">download Git</a> and start installation.
 For more information on how to install it, access link above.
@@ -61,7 +61,7 @@ __1.3 Git for Windowns:__ better way is to <a href="https://git-scm.com/download
 
 
 <br/>
-### 2. Download and install Ruby and Jekyll.
+### 2. Downloading and installign Ruby and Jekyll.
 Why do you need Ruby? So, you want your website to look pretty. For this, we need to download Jekyll Themes.
 Because Jekyll is built using Ruby, we need to set up a Ruby environment (e.g. install Ruby) for Jekyll be able to run. For more information about Jekyll, have a look <a href="https://jekyllrb.com/docs/installation/windows/">here</a>.
 
@@ -72,7 +72,7 @@ Then, check if you already have Ruby installed on your computer:
 $ ruby --v
 ```
 <br/>
-If you do not hare it yet, let's install it!
+If you do not have it yet, let's install it!
 
 
 __2.1 Install Ruby and Jekyll on Windowns__
@@ -141,7 +141,7 @@ To stop the server, run: `ctrl + C`, then: `Y`.
 Great, now all the needed environments are set up!
 
 <br/>
-### 3.Download a Jekyll theme.
+### 3.Downloading a Jekyll theme.
 Now it is time to choose your favourite Jekyll themes.
 Go ahead to the website and try to get the one which fits the propose of your website most.
 
@@ -243,7 +243,7 @@ $ bundle exec jekyll serve
 ```
 
 <br/>
-### 4.Set up a GitHub account.
+### 4.Setthing up a GitHub account.
 If you get until here, you are ready to publish your website to the world by serving it in GitHub with GitHub Pages.
 
 But first, you need to create a <a href="https://github.com/join?source=header-home">GitHub account</a>, if you do not have one yet.
@@ -254,7 +254,7 @@ In the end, it looks like: *your_github_username.github.io*
 Great. You are doing well!
 
 <br/>
-### 5.Publish your website.
+### 5.Publishing your website.
 Now in GitHub create a repository:
 
 5.1 click in the **+** at the upright corner, then New repository:
