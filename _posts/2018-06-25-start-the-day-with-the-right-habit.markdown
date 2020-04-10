@@ -8,7 +8,7 @@ tags:   Code
 ## Motivation.
 Perhaps you are at home wondering that you cannot go out or asking yourself when this social isolation will finally get to an end. Even deeper, your mind wonders that you cannot do your job because it requires you to be on site. You already made all home organization that you planned once the time comes you would do. But it still not enough and you feel like doing something good to the society... Then this post is for you!
 
-I will introduce you through this tutorial how you can let your legacy to the world by showing you __how to create a website__ without needing for programming knowledge (just a bit, but it won't hurts, I promise 😉), and deliver your message, in a really nice way, to your audience.
+I will introduce you through this tutorial how you can let your legacy to the world by showing you __how to create a website__ without big needing for programming knowledge (just a bit, but it won't hurts, I promise 😉), and deliver your message, in a really nice way, to your audience.
 
 So, let's get to start!!!
 
@@ -201,6 +201,11 @@ Now you served your website locally on your computer, meaning that as soon the s
 
 `http://127.0.0.1:4001/`
 
+<br/>
+**Editing the website files:**
+
+You can see your files and edit them by right clicking on the folder and open it using <a href="https://notepad-plus-plus.org/downloads/">Notepad++</a>, or any other text editor you preferer.
+Besides of notepad++, I would recommend <a href="https://atom.io/">Atom</a>, the one I am using, or <a href="http://www.sublimetext.com/">Sublime</a>.
 
 <br/>
 So, up to here all running good guys? Great! Jump to **Step 4**!
