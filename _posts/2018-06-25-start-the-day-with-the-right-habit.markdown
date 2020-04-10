@@ -267,7 +267,7 @@ as so:
 
 `your_github_username.github.io/blog`.
 
-Or, if you bought a domain name, and your domain is `my_nice_website_name.com`, place it as the name of your repository.
+Or, if you <a href="https://www.wpbeginner.com/beginners-guide/how-to-choose-the-best-domain-registrar/">bought a domain name</a>, and your domain is `my_nice_website_name.com`, place it as the name of your repository.
 
 ![]({{ site.baseurl }}/images/create_git_repos2.jpg)
 
@@ -347,7 +347,19 @@ In GitHub website go to settings and scroll down until GitHub Pages:
 There you see the link of your website:
 ![]({{ site.baseurl }}/images/create_git_repos5.jpg)
 
-#### Access it and have fun!!! 💚
+
+The whenever you modify your website files locally, check how does it looks like
+by starting the Jekyll server (hint: `bundle exec jekyll server`).
+After, you have to add your files to the staging are, commit the changes and push them to you GitHub repository.
+The commands your already know:
+
+```
+$ git add .
+$ git commit -m "your commit message explaining what you changed"
+$ git push origin gh-pages
+```
+<br/>
+#### Access your website and have fun!!! 💚
 
 <br/>
 <p style="text-align: center">I hope you have enjoyed with me guys.</p>
