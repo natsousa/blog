@@ -6,32 +6,34 @@ image:  post01.jpg
 tags:   Code
 ---
 ## Motivation.
-Perhaps you are at home wondering that you cannot go out or asking yourself when this social isolation will finally get to an end. Even deeper, your mind wonders that you cannot do your job because it requires you to be on site. You already made all home organization that you planned once the time comes you would do. But it still not enough and you feel like doing something good to the society... Then this post is for you!
+Perhaps you are at home wondering that you cannot go out or asking yourself when this social isolation will finally get to an end. Even deeper, your mind wonders that you cannot do your job because it requires you to be on site. You already made all home organization that you planned once the time comes you would do. But it is still not enough and you feel like doing something else, something good to the society... You like to have a special place to communicate your project to the world... So, this post is for you!
 
-I will introduce you through this tutorial how you can let your legacy to the world by showing you __how to create a website__ without big needing for programming knowledge (just a bit, but it won't hurts, I promise 😉), and deliver your message, in a really nice way, to your audience.
+I will introduce you through this tutorial how you can let your legacy to the world, by showing you __how to create a website__ without big need for programming knowledge (just a bit, but it won't hurts, I promise 😉), and so deliver your message, nicely, to your audience.
 
-So, let's get to start!!!
+<br/>
 
 ## Creating a website with Jekyll and GitHub.
 
-There are several ways how you can create your own blog or website. For instance, you could do it using __Blogdown__ and R, <a href="https://www.samples-of-thoughts.com/2018/how-to-make-a-website-using-blogdown-and-github/">here</a> is a good tutorial to start it. I decided to use <a href="http://jekyllthemes.org/">Jekyll themes </a>. However, there are some alternatives as, <a href="https://blog.getpelican.com/">Pelican</a>, <a href="https://gohugo.io/">Hugo</a>, and others with even less coding requirements, such as <a href="https://br.wordpress.com/">WorldPress</a> and <a href="https://www.dokuwiki.org/dokuwiki">Dokuwiki</a>. I decided to host the website on <a href="https://pages.github.com/">GitHub Pages</a>, where you learn with many of its tutorials.
+There are several ways how you can create your own blog or website. I decided to use <a href="http://jekyllthemes.org/">Jekyll themes</a> and host it on GitHub with <a href="https://pages.github.com/">GitHub Pages</a>. However, there are some alternatives as, <a href="https://blog.getpelican.com/">Pelican</a>, <a href="https://gohugo.io/">Hugo</a>, and others with even less coding requirements, such as <a href="https://br.wordpress.com/">WorldPress</a> and <a href="https://www.dokuwiki.org/dokuwiki">Dokuwiki</a>. But this is not the only way to create your website, for instance, you could do it also using __Blogdown__ and R, <a href="https://www.samples-of-thoughts.com/2018/how-to-make-a-website-using-blogdown-and-github/">here</a> is a good tutorial.
 
 __What do we need to start?__
 
-I am assuming from now that you have none of these things set up yet.
+I am assuming from now that you have none of these things set up yet. Otherwise jump to **session 3**
 
-**1. Downloading Git bash:** It allows us to run the command line 🤯 to connect local folders to GitHub repository 😵. Hang on! Guys don't worries with theses term, slowly we come along with it.
+**1. Downloading Git bash:** It allows us to run the command line 🤯 to connect local folders to GitHub repository 😵. Hang on! Guys don't worries with these terms, slowly we come along with it. Believe me.
 
 **2. Installing Ruby and Jekyll:** It creates an environment for Jekyll runs since Jekyll is built in Ruby.
 
-**3. Installing Jekyll Themes:** This is what will give the website a nice look. It is the layout of your website
+**3. Installing Jekyll Themes:** This is what will give the website a nice look. It is the layout of your website,
 
-**4. Setting up a GitHub account and create a repository:** It allows us to give the website a name.
+**4. Setting up a GitHub account:** It allows us to give the website a name.
 
-**5. Publishing your website:** It allows people to find you. This step brings your website to GitHub repository.
+**5. Create a GitHub repository:** It allows people to find you. This step publish your website by bring it to public server (GitHub).
 
 
 ![]({{ site.baseurl }}/images/post011.jpg)
+
+So, let's get to start!!!
 
 <br/>
 ### 1. Downloading and installing Git.
@@ -41,24 +43,23 @@ For more information on how to install it, access link above.
 If you are familiar with the command line, open command prompt and just run these lines bellow:
 
 <br/>
-__1.1 Git for Linux:__ if you’re on a Debian-based distribution, such as Ubuntu.
+__1.1 Git for Windowns:__ better way is to <a href="https://git-scm.com/downloads">download the driver</a> and install it.
+
+<br/>
+__1.2 Git for Linux:__ if you’re on a Debian-based distribution, such as Ubuntu.
 
 ```
 $ sudo apt install git-all
 ```
 
 <br/><br/>
-__1.2 Git for macOS:__ first, check if it is already installed on your computer. probably it is!
+__1.3 Git for macOS:__ first, check if it is already installed on your computer. probably it is! Open a Terminal and type:
 
 ```
 $ git --v
 ```
 <br/>
 Otherwise download it <a href="https://sourceforge.net/projects/git-osx-installer/files/">here</a>.
-
-<br/>
-__1.3 Git for Windowns:__ better way is to <a href="https://git-scm.com/downloads">download the driver</a> and install it.
-
 
 <br/>
 ### 2. Downloading and installign Ruby and Jekyll.
@@ -91,7 +92,7 @@ Check if Jekyll was installed properly. If so, you may be able to see something 
 $ jekyll -v
 ```
 <br/>
-If you run into error messages, jump to the session **Dealing with errors**
+If you run into error messages, jump to the session: **Dealing with errors**
 
 <br/>
 __2.3 Install Ruby and Jekyll on Linux__
@@ -114,13 +115,12 @@ $ xcode-select --install
 
 # Install Homebrew
 $ /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-
 $ brew install ruby
 
 # Add the brew ruby path to your shell config:
 $ echo 'export PATH="/usr/local/opt/ruby/bin:$PATH"' >> ~/.bash_profile
 
-#Then relaunch your terminal and check your updated Ruby setup:
+# Then relaunch your terminal and check your updated Ruby setup:
 $ which ruby
 # /usr/local/opt/ruby/bin/ruby
 
@@ -134,8 +134,6 @@ $ gem install --user-install bundler jekyll
 $ ruby -v
 # ruby 2.6.3p62 (2019-04-16 revision 67580)
 ```
-<br/>
-To stop the server, run: `ctrl + C`, then: `Y`.
 
 
 Great, now all the needed environments are set up!
@@ -144,9 +142,8 @@ Great, now all the needed environments are set up!
 ### 3.Downloading a Jekyll theme.
 Now it is time to choose your favourite Jekyll themes.
 Go ahead to the website and try to get the one which fits the propose of your website most.
-
 The themes I am using is zolan.
-You can download it directly from the <a href="http://jekyllthemes.org/">website</a>, or, since you have already Git bash installed, run this command line:
+You can download it directly from the <a href="http://jekyllthemes.org/">website</a>, or, since you have already Git bash installed, run this command line, replacing `developer_name` and `themes_name`:
 
 ```
 $ git clone https://github.com/developer_name/themes_name.git
@@ -171,6 +168,7 @@ $ cd Downloads\your_nice_jekyll_themes_name
 Or, if you are in the up front folder (like: `C:Users\your_username\Desktop\some_folder`) and you need to go some folders back, you can do so by:
 
 ```
+# C:Users\your_username\Desktop\some_folder
 $ cd ..\..
 $ cd Downloads\your_nice_jekyll_themes_name
 ```
@@ -183,7 +181,7 @@ $ bundle install
 $ bundle exec jekyll serve
 ```
 <br/>
-You should now be able to see the folloing:
+You should now be able to see the following:
 ```
 $ Configuration file: C:/Users/your_name/your_themes_name/_config.yml
               Source: C:/Users/your_name/your_themes_name
@@ -199,7 +197,10 @@ $ Configuration file: C:/Users/your_name/your_themes_name/_config.yml
 So what you get?
 Now you served your website locally on your computer, meaning that as soon the server is running you can access your website by search it in google by:
 
-`http://127.0.0.1:4001/`
+`http://127.0.0.1:4001/blog`
+
+<br/>
+**To stop the server**, run: `ctrl + C`, then: `Y`.
 
 <br/>
 **Editing the website files:**
@@ -211,7 +212,7 @@ Besides of notepad++, I would recommend <a href="https://atom.io/">Atom</a>, the
 #### So, up to here all running good guys? Great! Jump to **Step 4**!
 
 <br/>
-**Dealing with errors**
+#### Dealing with errors
 
 Otherwise, if you get into some problems on the way and see an error message printed out like:
 
@@ -262,12 +263,12 @@ Great. You are doing well!
 ### 5.Publishing your website.
 Now in GitHub create a repository:
 
-5.1 click in the **+** at the upright corner, then New repository:
+__5.1 click in the  *+*  at the upright corner, then New repository:__
 
 ![]({{ site.baseurl }}/images/create_git_repos.jpg)
 
 
-5.2 Give your repository a name.
+__5.2 Give your repository a name.__
 
 **Attention!** the name of your repository (e.g: 'blog') will be added to your `your_github_username.github.io`,
 as so:
@@ -279,23 +280,23 @@ Or, if you <a href="https://www.wpbeginner.com/beginners-guide/how-to-choose-the
 ![]({{ site.baseurl }}/images/create_git_repos2.jpg)
 
 
-5.3 Now you should be able to see the following:
+__5.3 Now you should be able to see the following:__
 
 ![]({{ site.baseurl }}/images/create_git_repos3.jpg)
 
 #### Great!
 
-5.4 Now in the website folder, open the **_config.yml** file and write your repository name in the baseurl line,
-and in url line paste your base hostname & protocol for your site, as:
+__5.4 Now in the website folder, open the *_config.yml* file and write your repository name in the baseurl line,
+and in url line paste your base hostname & protocol for your site, as:__
 
 ![]({{ site.baseurl }}/images/create_git_repos21.jpg)
 
 You can do something else, in **_settings.yml** file, you can add your social network information,
-include <a href="https://disqus.com/">Disqus</a> (allow reads to comment, give likes your posts, it is important because this your way to communicate with you audience),
+include <a href="https://disqus.com/">Disqus</a> (allow readers to comment, give likes on your posts. It is important because this is your way to communicate with you audience),
 and <a href="https://mailchimp.com/">MailChimp</a> (send personalised email to your followers) credentials.
 
 <br/>
-5.5 Now what you need to do is to tell your **local folder** that there is a **repository** waiting for it.
+__5.5 Now what you need to do is to tell your *local folder* that there is a *repository* waiting for it.__
 
 In the Git bash, check if you are inside of your website folder (hint: `pwd`).
 And initiate a <a href="https://git-scm.com/book/en/v2/Getting-Started-About-Version-Control">version control</a> for your website folder, by running:
@@ -311,14 +312,14 @@ How to get there? Write your first git commit.
 Don't worry so much about git commands now, it is easy and soon you will get very familiar with it. Here is a <a href="https://www.udacity.com/course/version-control-with-git--ud123">free course</a> you can learn more about it.
 
 <br/>
-5.6 Create a branch on your website project that up to now just have one (a master branch)
+__5.6 Create a branch on your website project that up to now just have one (a master branch)__
 
 ```
 $ git checkout -b gh-pages
 ```
 <br/>
 
-5.7 Add the files from your website folder to the staging area (a place where files get together to gain a commit and start being tracked)
+__5.7 Add the files from your website folder to the staging area (a place where files get together to gain a commit and start being tracked)__
 ```
 $ git add .
 ```
@@ -326,19 +327,19 @@ $ git add .
 The **.** here means "add all files".
 
 <br/>
-5.8 Write your first commit with a commit message:
+__5.8 Write your first commit with a commit message:__
 ```
 $ git commit -m "first commit"
 ```
 <br/>
 
-5.9 Now communicate your remote repository from GitHub with your local folder, by:
+__5.9 Now communicate your *remote GitHub repository* with your *local folder* , by:__
 ```
 $ git remote add origin https:://github.com/your_github_user_name/your_github_repository.git
 ```
 <br/>
 
-5.10 Send your website local files to the remote repository, by:
+__5.10 Send your website local files to the remote repository, by:__
 ```
 $ git push origin gh-pages
 ```
@@ -355,13 +356,13 @@ There you see the link of your website:
 ![]({{ site.baseurl }}/images/create_git_repos5.jpg)
 
 
-The whenever you modify your website files locally, check how does it looks like
+Then, from now whenever you modify your website files locally, check how does it looks like
 by starting the Jekyll server (hint: `bundle exec jekyll server`).
-After that, you have to add your files to the staging area, commit the changes and push them to your GitHub repository.
+After that, you have to add your modified files to the stage area, commit the changes and push them to your GitHub repository.
 The commands your already know:
 
 ```
-$ git add .
+$ git add . # OR: git add file_name_1.md, file_name_2.htlm #etc, ...
 $ git commit -m "your commit message explaining what you changed"
 $ git push origin gh-pages
 ```
@@ -369,6 +370,6 @@ $ git push origin gh-pages
 #### Access your website and have fun!!! 💚
 
 <br/>
-<p style="text-align: center">I hope you have enjoyed with me guys.</p>
+<p style="text-align: center">I hope you have enjoyed with me.</p>
 Share this article with your community. I am very happy to have guided you through this journey.
 Feedbacks, comments, bugs... Just leave a message. I am willing to support with any further advise.
